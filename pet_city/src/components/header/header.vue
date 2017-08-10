@@ -20,9 +20,6 @@
                <span class="icon"></span>
            </a>
 
-
-
-
            <a href="javascript" class="category">
                <img src="./mydope.png" alt="">
            </a>
@@ -63,7 +60,7 @@
             display inline-block
             position absolute
             right -10px
-            top -2px
+            top 4px
        .line
            color #333
            font-size 14px

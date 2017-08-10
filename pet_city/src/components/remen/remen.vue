@@ -24,17 +24,20 @@
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
     .remen
-      margin-bottom 30px
+      display flex
+      margin-bottom 50px
     .catLeft
-      float left
+      /*float left*/
       width 42.53%
       height 160px
-    img
-      width 100%
+      /*overflow hidden*/
+      img
+        width 100%
     .catRight
-      float left
+      /*float left*/
       width 57.33%
       height 160px
-    img
-      width 100%
+      /*overflow hidden*/
+      img
+        width 100%
 </style>

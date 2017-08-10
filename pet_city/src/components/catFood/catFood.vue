@@ -1,6 +1,8 @@
 <template>
     <div>
-        猫粮
+        <div class="catFood">
+
+        </div>
     </div>
 </template>
 <script>
@@ -11,5 +13,11 @@
     }
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
+  .catFood
+    width 100%
+    height 200px
+    background-color #bfa
+
+
 
 </style>

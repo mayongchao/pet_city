@@ -1,5 +1,5 @@
 <template>
-    <div class="swiper-container">
+    <div class="slideshow swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="./zhunbei.png" alt=""></div>
             <div class="swiper-slide"><img src="./chaopinshipin.png" alt=""></div>
@@ -8,7 +8,7 @@
             <div class="swiper-slide"><img src="./maosha.jpg" alt=""></div>
         </div>
         <!-- 如果需要分页器 -->
-        <div class="swiper-pagination"></div>
+        <div class="demo swiper-pagination"></div>
 
         <!-- 如果需要导航按钮 -->
         <!--<div class="swiper-button-prev"></div>-->
@@ -25,12 +25,12 @@
         },
         created(){
             this.$nextTick(()=>{
-                var mySwiper = new Swiper ('.swiper-container', {
+                var mySwiper = new Swiper ('.slideshow', {
                     direction: 'horizontal',
                     loop: true,
 
                     // 如果需要分页器
-                    pagination: '.swiper-pagination',
+                    pagination: '.demo',
                     autoplay:2000,
                     autoplayDisableOnInteraction:false
                     // 如果需要前进后退按钮
