@@ -88,7 +88,7 @@
             height 11px
             background url("./search.png") no-repeat
             background-size 11px auto
-            top 6px
+            top 15px
             right 8px
 
 

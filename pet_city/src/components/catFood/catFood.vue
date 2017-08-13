@@ -66,10 +66,10 @@
                     <div class="page-navbar">
                         <!--<div class="page-title">Navbar</div>-->
                         <mt-navbar class="page-part" v-model="selected">
-                            <mt-tab-item id="1">进口猫粮</mt-tab-item>
-                            <mt-tab-item id="2">国产猫粮</mt-tab-item>
-                            <mt-tab-item id="3">拆零试吃</mt-tab-item>
-                            <mt-tab-item id="4">处方猫粮</mt-tab-item>
+                            <mt-tab-item id="1" class="pageList">进口猫粮</mt-tab-item>
+                            <mt-tab-item id="2" class="pageList">国产猫粮</mt-tab-item>
+                            <mt-tab-item id="3" class="pageList">拆零试吃</mt-tab-item>
+                            <mt-tab-item id="4" class="pageList">处方猫粮</mt-tab-item>
                         </mt-navbar>
 
                         <div>
@@ -1288,6 +1288,30 @@
       .navbar
         .page-navbar
           .page-part
+            height 25px
+            margin 12px 5px
+            .pageList
+              /*margin-left 10px*/
+              width 25%
+              padding 0
+              margin 1px 5px
+              background-color #f5f5f5
+              border-radius 5px
+              position relative
+              .mint-tab-item-label
+                position absolute
+                top 4px
+                left 0
+                right 0
+                left 0
+                margin auto
+                font-size 13px
+                color #333
+            .is-selected
+              background-color red
+              color #ffffff
+              line-height 25px
+              border-bottom none !important
           .container1
             .catFoodItem
               .catFoodList

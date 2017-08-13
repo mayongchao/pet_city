@@ -7,6 +7,9 @@ import { TabContainer, TabContainerItem } from 'mint-ui';
 import router from './router/index'
 import app from './app.vue'
 
+
+import cat from './components/cat/cat.vue'
+
 Vue.use(VueScroll)
 /*Vue.use(MintUI)*/
 /*渲染mint-ui组件*/
